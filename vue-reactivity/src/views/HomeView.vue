@@ -1,9 +1,26 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  <div>
+    <h1>hello</h1>
+  </div>
+</template>
+
+<script></script>
+
+<style lang="scss" scoped></style>
+
+<!-- <script setup>
+import AnimalCard from '../components/AnimalCard.vue'
+import LogIn from '../components/LogIn.vue'
+const animals = [
+  { name: 'Walrus', image: '/walrus.webp' },
+  { name: 'Mark Fridlan', image: '/mark.jpg' },
+]
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="container">
+    <LogIn message="Hello Agnes"></LogIn>
+    <AnimalCard v-for="animal in animals" :key="animal.name" :animal="animal" />
+  </div>
 </template>
+ -->
