@@ -1,10 +1,13 @@
 <template>
-  <div>
+  <div class="bg-blue-500">
     <h1>hello</h1>
   </div>
 </template>
 
-<script></script>
+<script>
+import options from '../components/CharacterList.vue'
+const options
+</script>
 
 <style lang="scss" scoped></style>
 

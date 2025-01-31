@@ -1,0 +1,152 @@
+<template>
+  <div>{{ options }}</div>
+</template>
+
+<script setup>
+import { reactive } from 'vue'
+const options = reactive([
+  {
+    name: 'Ace',
+    gender: 'Male',
+    side: 'Attacker',
+    price: 19.99,
+    image: '/ace.jpg',
+  },
+  {
+    name: 'Alibi',
+    gender: 'Female',
+    side: 'Defender',
+    price: 14.99,
+    image: '/alibi.jpg',
+  },
+  {
+    name: 'Amaru',
+    gender: 'Female',
+    side: 'Attacker',
+    price: 9.99,
+    image: '/amaru.jpg',
+  },
+  {
+    name: 'Aruni',
+    gender: 'Female',
+    side: 'Defender',
+    price: 9.99,
+    image: '/aruni.jpg',
+  },
+  {
+    name: 'Ash',
+    gender: 'Female',
+    side: 'Attacker',
+    price: 19.99,
+    image: '/ash.jpg',
+  },
+  {
+    name: 'Azami',
+    gender: 'Female',
+    side: 'Defender',
+    price: 14.99,
+    image: '/azami.jpg',
+  },
+  {
+    name: 'Bandit',
+    gender: 'Male',
+    side: 'Defender',
+    price: 9.99,
+    image: '/bandit.jpg',
+  },
+  {
+    name: 'Blitz',
+    gender: 'Male',
+    side: 'Attacker',
+    price: 14.99,
+    image: '/blitz.jpg',
+  },
+  {
+    name: 'Brava',
+    gender: 'Female',
+    side: 'Attacker',
+    price: 14.99,
+    image: '/brava.jpg',
+  },
+  {
+    name: 'Buck',
+    gender: 'Male',
+    side: 'Attacker',
+    price: 14.99,
+    image: '/buck.jpg',
+  },
+  {
+    name: 'Castle',
+    gender: 'Male',
+    side: 'Defender',
+    price: 9.99,
+    image: '/castle.jpg',
+  },
+  {
+    name: 'Caveira',
+    gender: 'Female',
+    side: 'Defender',
+    price: 9.99,
+    image: '/caveira.jpg',
+  },
+  {
+    name: 'Clash',
+    gender: 'Female',
+    side: 'Defender',
+    price: 9.99,
+    image: '/clash.jpg',
+  },
+  {
+    name: 'Deimos',
+    gender: 'Male',
+    side: 'Attacker',
+    price: 19.99,
+    image: '/deimos.jpg',
+  },
+  {
+    name: 'Doc',
+    gender: 'Male',
+    side: 'Defender',
+    price: 14.99,
+    image: '/doc.jpg',
+  },
+  {
+    name: 'Dokkaebi',
+    gender: 'Female',
+    side: 'Attacker',
+    price: 19.99,
+    image: '/dokkaebi.jpg',
+  },
+  {
+    name: 'Echo',
+    gender: 'Male',
+    side: 'Defender',
+    price: 9.99,
+    image: '/echo.jpg',
+  },
+  {
+    name: 'Ela',
+    gender: 'Female',
+    side: 'Defender',
+    price: 9.99,
+    image: '/ela.jpg',
+  },
+  {
+    name: 'Fuze',
+    gender: 'Male',
+    side: 'Attacker',
+    price: 9.99,
+    image: '/fuze.jpg',
+  },
+  {
+    name: 'Glaz',
+    gender: 'Male',
+    side: 'Attacker',
+    price: 9.99,
+    image: '/glaz.jpg',
+  },
+])
+export { options }
+</script>
+
+<style scoped></style>
