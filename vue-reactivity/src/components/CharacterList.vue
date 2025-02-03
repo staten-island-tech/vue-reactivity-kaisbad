@@ -1,5 +1,17 @@
 <template>
-  <div class="container"></div>
+  <div class="container flex flex-wrap justify-around w-[100vw] mx-auto my-8">
+    <h1>Characters</h1>
+    <div
+      v-for="character in characters"
+      :key="character.name"
+      class="card flex flex-col justify-evenly items-center w-[60%] h-auto border-2 border-black mb-[3%] shadow-[9px_8px_0_black] rounded-2xl>"
+    >
+      <img :src="character.image" :alt="character.name" class="w-[80%] h-auto rounded-lg" />
+      <h2 class="text-xl font-semibold mt-2">{{ character.name }}</h2>
+      <p class="text-gray-600">{{ character.side }} - {{ character.gender }}</p>
+      <p class="text-green-600 font-bold">${{ character.price.toFixed(2) }}</p>
+    </div>
+  </div>
 </template>
 
 <script setup>
