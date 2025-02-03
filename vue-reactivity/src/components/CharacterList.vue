@@ -1,152 +1,151 @@
 <template>
-  <div>{{ options }}</div>
+  <div class="container"></div>
 </template>
 
 <script setup>
 import { reactive } from 'vue'
-const options = reactive([
+const characters = reactive([
   {
     name: 'Ace',
     gender: 'Male',
     side: 'Attacker',
     price: 19.99,
-    image: '/ace.jpg',
+    image: 'ace.jpg',
   },
   {
     name: 'Alibi',
     gender: 'Female',
     side: 'Defender',
     price: 14.99,
-    image: '/alibi.jpg',
+    image: 'alibi.jpg',
   },
   {
     name: 'Amaru',
     gender: 'Female',
     side: 'Attacker',
     price: 9.99,
-    image: '/amaru.jpg',
+    image: 'amaru.jpg',
   },
   {
     name: 'Aruni',
     gender: 'Female',
     side: 'Defender',
     price: 9.99,
-    image: '/aruni.jpg',
+    image: 'aruni.jpg',
   },
   {
     name: 'Ash',
     gender: 'Female',
     side: 'Attacker',
     price: 19.99,
-    image: '/ash.jpg',
+    image: 'ash.jpg',
   },
   {
     name: 'Azami',
     gender: 'Female',
     side: 'Defender',
     price: 14.99,
-    image: '/azami.jpg',
+    image: 'azami.jpg',
   },
   {
     name: 'Bandit',
     gender: 'Male',
     side: 'Defender',
     price: 9.99,
-    image: '/bandit.jpg',
+    image: 'bandit.jpg',
   },
   {
     name: 'Blitz',
     gender: 'Male',
     side: 'Attacker',
     price: 14.99,
-    image: '/blitz.jpg',
+    image: 'blitz.jpg',
   },
   {
     name: 'Brava',
     gender: 'Female',
     side: 'Attacker',
     price: 14.99,
-    image: '/brava.jpg',
+    image: 'brava.jpg',
   },
   {
     name: 'Buck',
     gender: 'Male',
     side: 'Attacker',
     price: 14.99,
-    image: '/buck.jpg',
+    image: 'buck.jpg',
   },
   {
     name: 'Castle',
     gender: 'Male',
     side: 'Defender',
     price: 9.99,
-    image: '/castle.jpg',
+    image: 'castle.jpg',
   },
   {
     name: 'Caveira',
     gender: 'Female',
     side: 'Defender',
     price: 9.99,
-    image: '/caveira.jpg',
+    image: 'caveira.jpg',
   },
   {
     name: 'Clash',
     gender: 'Female',
     side: 'Defender',
     price: 9.99,
-    image: '/clash.jpg',
+    image: 'clash.jpg',
   },
   {
     name: 'Deimos',
     gender: 'Male',
     side: 'Attacker',
     price: 19.99,
-    image: '/deimos.jpg',
+    image: 'deimos.jpg',
   },
   {
     name: 'Doc',
     gender: 'Male',
     side: 'Defender',
     price: 14.99,
-    image: '/doc.jpg',
+    image: 'doc.jpg',
   },
   {
     name: 'Dokkaebi',
     gender: 'Female',
     side: 'Attacker',
     price: 19.99,
-    image: '/dokkaebi.jpg',
+    image: 'dokkaebi.jpg',
   },
   {
     name: 'Echo',
     gender: 'Male',
     side: 'Defender',
     price: 9.99,
-    image: '/echo.jpg',
+    image: 'echo.jpg',
   },
   {
     name: 'Ela',
     gender: 'Female',
     side: 'Defender',
     price: 9.99,
-    image: '/ela.jpg',
+    image: 'ela.jpg',
   },
   {
     name: 'Fuze',
     gender: 'Male',
     side: 'Attacker',
     price: 9.99,
-    image: '/fuze.jpg',
+    image: 'fuze.jpg',
   },
   {
     name: 'Glaz',
     gender: 'Male',
     side: 'Attacker',
     price: 9.99,
-    image: '/glaz.jpg',
+    image: 'glaz.jpg',
   },
 ])
-export { options }
 </script>
 
 <style scoped></style>

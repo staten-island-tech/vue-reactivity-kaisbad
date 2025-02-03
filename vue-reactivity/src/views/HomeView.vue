@@ -1,12 +1,12 @@
 <template>
   <div class="bg-blue-500">
     <h1>hello</h1>
+    <options />
   </div>
 </template>
 
 <script>
-import options from '../components/CharacterList.vue'
-const options
+import characters from '../components/CharacterList.vue'
 </script>
 
 <style lang="scss" scoped></style>
