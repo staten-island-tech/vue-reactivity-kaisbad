@@ -1,7 +1,7 @@
-const nikeTrackSpikes = [
+const nikeSpikes = [
   {
     name: 'Nike Maxfly 2',
-    event: 'Sprinting',
+    event: 'Sprints',
     price: 190.0,
     color: 'Multiple',
     image: 'maxfly_2.jpg',
@@ -33,7 +33,7 @@ const nikeTrackSpikes = [
   },
   {
     name: 'Nike Superfly Elite 2',
-    event: 'Sprinting',
+    event: 'Sprints',
     price: 160.0,
     color: 'Multiple',
     image: 'superfly_elite_2.jpg',
@@ -41,7 +41,7 @@ const nikeTrackSpikes = [
   },
   {
     name: 'Nike Rival Sprint',
-    event: 'Sprinting',
+    event: 'Sprints',
     price: 75.0,
     color: 'Multiple',
     image: 'rival_sprint.jpg',
@@ -57,7 +57,7 @@ const nikeTrackSpikes = [
   },
   {
     name: 'Nike Rival Distance',
-    event: 'Distance (400m-5K)',
+    event: 'Distance',
     price: 75.0,
     color: 'Multiple',
     image: 'zoom_rival_distance.jpg',
@@ -88,7 +88,7 @@ const nikeTrackSpikes = [
     url: 'https://www.nike.com/t/pole-vault-elite-track-field-jumping-spikes-haXz2arb/FZ9649-600',
   },
   {
-    name: 'Nike Triple Jump Elite',
+    name: 'Nike Triple Jump Elite 3',
     event: 'Triple Jump',
     price: 125.0,
     color: 'Multiple',
@@ -160,4 +160,4 @@ const nikeTrackSpikes = [
     url: 'https://www.nike.com/t/rival-xc-6-cross-country-spikes-zcnHpR/DX7999-600',
   },
 ]
-export { nikeTrackSpikes }
+export { nikeSpikes }

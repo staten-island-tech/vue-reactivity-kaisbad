@@ -1,12 +1,12 @@
 <template>
   <div class="bg-blue-500">
     <h1>hello</h1>
-    <options />
+    <nikeSpikes />
   </div>
 </template>
 
 <script>
-import characters from '../components/CharacterList.vue'
+import nikeSpikes from '../components/products.js'
 </script>
 
 <style lang="scss" scoped></style>
