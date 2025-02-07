@@ -1,4 +1,4 @@
-const nikeSpikes = [
+const spikes = [
   {
     name: 'Nike Maxfly 2',
     event: 'Sprints',

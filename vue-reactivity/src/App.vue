@@ -1,3 +1,5 @@
+//composition api vue v4 //key is indentifier/what makes an item unique
+
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
