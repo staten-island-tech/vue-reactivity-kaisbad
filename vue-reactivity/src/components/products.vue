@@ -1,3 +1,10 @@
+<template>
+    <div>
+
+    </div>
+</template>
+
+<script setup>
 const spikes = [
   {
     name: 'Nike Maxfly 2',
@@ -60,7 +67,7 @@ const spikes = [
     event: 'Distance',
     price: 75.0,
     color: 'Multiple',
-    image: 'zoom_rival_distance.jpg',
+    image: 'rival_distance.jpg',
     url: 'https://www.nike.com/t/zoom-rival-track-field-distance-spikes-0L3lX202/FZ9653-100',
   },
   {
@@ -76,7 +83,7 @@ const spikes = [
     event: 'Long Jump',
     price: 160.0,
     color: 'Multiple',
-    image: 'zoom_rival_sprint.jpg',
+    image: 'zoom_long_jump_elite.jpg',
     url: 'https://www.nike.com/t/long-jump-elite-track-field-jumping-spikes-pSDffB/FZ9326-600',
   },
   {
@@ -121,10 +128,10 @@ const spikes = [
   },
   {
     name: 'Nike Ja Fly 4',
-    event: 'Sprinting (100m-400m)',
+    event: 'Sprints',
     price: 120.0,
     color: 'Multiple',
-    image: 'zoom_ja_fly.jpg',
+    image: 'ja_fly_4.jpg',
     url: 'https://www.nike.com/t/ja-fly-4-track-and-field-sprinting-spikes-hcvHZn/DR2741-601',
   },
   {
@@ -132,7 +139,7 @@ const spikes = [
     event: 'Javelin',
     price: 160.0,
     color: 'Multiple',
-    image: 'zoom_rival_jump.jpg',
+    image: 'zoom_javelin_elite.jpg',
     url: 'https://www.nike.com/t/zoom-javelin-elite-3-track-field-throwing-spikes-GF8hr5/FZ9626-001',
   },
   {
@@ -140,7 +147,7 @@ const spikes = [
     event: 'Distance',
     price: 120.0,
     color: 'Multiple',
-    image: 'zoom_rival_jump.jpg',
+    image: 'zoom_mamba.jpg',
     url: 'https://www.nike.com/t/zoom-mamba-6-track-field-distance-spikes-lrzr1g/DR2733-102',
   },
   {
@@ -148,7 +155,7 @@ const spikes = [
     event: 'Cross Country, Distance',
     price: 160.0,
     color: 'Multiple',
-    image: 'zoom_rival_jump.jpg',
+    image: 'zoom_dragonfly_xc.jpg',
     url: 'https://www.nike.com/t/zoomx-dragoy-xc-cross-country-spikes-gjBdMM/DX7992-600',
   },
   {
@@ -156,8 +163,12 @@ const spikes = [
     event: 'Cross Country, Distance',
     price: 70.0,
     color: 'Multiple',
-    image: 'zoom_rival_jump.jpg',
+    image: 'zoom_rival_xc.jpg',
     url: 'https://www.nike.com/t/rival-xc-6-cross-country-spikes-zcnHpR/DX7999-600',
   },
 ]
-export { nikeSpikes }
+</script>
+
+<style scoped>
+
+</style>

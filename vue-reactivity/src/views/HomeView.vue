@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import nikeSpikes from '../components/products.js'
+import nikeSpikes from '../components/products.vue'
 </script>
 
 <style lang="scss" scoped></style>
