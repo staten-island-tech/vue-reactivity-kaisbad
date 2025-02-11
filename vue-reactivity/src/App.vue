@@ -11,12 +11,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-
+      <div
+        class="w-64 h-40 bg-cover bg-center rounded-lg shadow-lg"
+        style="background-image: url('/track.jpg')"
+      ></div>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
+
     <RouterView />
   </header>
 </template>
