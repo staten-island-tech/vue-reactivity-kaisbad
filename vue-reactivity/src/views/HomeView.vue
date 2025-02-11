@@ -1,17 +1,21 @@
 //composition api vue v4
 
 <script>
-import spikes from '@/components/SpikeList.vue'
+import ShowSpikes from '@/components/ShowSpikes.vue'
 </script>
 
 <template>
   <div class="bg-blue-500">
     <h1>hello</h1>
-    <spikes />
+    <div
+      class="w-64 h-40 bg-cover bg-center rounded-lg shadow-lg"
+      style="background-image: url('/track.jpg')"
+    ></div>
+    <ShowSpikes />
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
 
 <!-- <script setup>
 import AnimalCard from '../components/AnimalCard.vue'
