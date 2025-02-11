@@ -1,15 +1,15 @@
 //composition api vue v4
 
+<script>
+import spikes from '@/components/SpikeList.vue'
+</script>
+
 <template>
   <div class="bg-blue-500">
     <h1>hello</h1>
-    <nikeSpikes />
+    <spikes />
   </div>
 </template>
-
-<script>
-import nikeSpikes from '../components/products.vue'
-</script>
 
 <style lang="scss" scoped></style>
 

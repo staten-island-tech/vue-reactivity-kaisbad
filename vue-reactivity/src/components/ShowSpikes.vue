@@ -9,6 +9,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import spike
+</script>
 
 <style scoped></style>
