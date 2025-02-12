@@ -1,16 +1,13 @@
 //composition api vue v4
 
-<script>
+<script setup>
 import ShowSpikes from '@/components/ShowSpikes.vue'
 </script>
 
 <template>
   <div class="bg-blue-500">
     <h1>hello</h1>
-    <div
-      class="w-64 h-40 bg-cover bg-center rounded-lg shadow-lg"
-      style="background-image: url('/track.jpg')"
-    ></div>
+
     <ShowSpikes />
   </div>
 </template>
