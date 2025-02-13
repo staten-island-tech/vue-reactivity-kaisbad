@@ -6,7 +6,6 @@
       v-for="spike in spikes"
       :key="spike.name"
     ></div>
-    <SpikeDisplay :spike="spike" />
   </div>
 </template>
 

@@ -2,6 +2,7 @@
 
 <script setup>
 import ShowSpikes from '@/components/ShowSpikes.vue'
+import SpikeDisplay from '@/components/SpikeDisplay.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import ShowSpikes from '@/components/ShowSpikes.vue'
     <h1>hello</h1>
 
     <ShowSpikes />
+    <SpikeDisplay />
   </div>
 </template>
 
