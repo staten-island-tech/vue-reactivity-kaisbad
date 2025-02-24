@@ -1,21 +1,33 @@
-//composition api vue v4
+<template>
+  <main>
+    <h1 class="text-center text-white text-5xl">Nike Spikes</h1>
+    <div class="flex flex-row w-full">
+      <div class="container flex flex-wrap justify-around w-[75%] my-8">
+        <div
+          class="card flex flex-col justify-evenly items-center w-[27%] h-auto border-2 border-black mb-[3%] shadow-[9px_8px_0_black] rounded-2xl bg-white"
+          v-for="spike in spikes"
+          :key="spike.name"
+        >
+          <SpikeDisplay :spike="spike" />
+        </div>
+      </div>
+      <div class="w-[20%] mx-auto">
+        <h1 class="text-center text-white text-5xl">Cart</h1>
+        <div class="container2 my-8 flex flex-col items-center justify-start bg-slate-500">
+          <RemoveCart v-for="spike in cart" :key="spike.name" :spike="spike" />
+        </div>
+      </div>
+    </div>
+  </main>
+</template>
 
 <script setup>
 import SpikeDisplay from '@/components/SpikeDisplay.vue'
-import spikes
+import { spikes } from '@/components/items.js'
+import { cart } from '@/components/cart.js'
+import RemoveCart from '@/components/RemoveCart.vue'
+console.log(spikes)
 </script>
-
-<template>
-  <div class="container flex flex-wrap justify-around w-full mx-auto my-8">
-    <h1>Nike Spikes</h1>
-    <div
-      class="card flex flex-col justify-evenly items-center w-[27%] h-auto border-2 border-black mb-[3%] shadow-[9px_8px_0_black] rounded-2xl"
-      v-for="spike in spikes"
-      :key="spike.name"
-    ></div>
-    <SpikeDisplay />
-  </div>
-</template>
 
 <style scoped></style>
 

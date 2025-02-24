@@ -2,26 +2,32 @@
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <main>
-    <header>
-      <div class="wrapper">
-        <nav>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-        </nav>
-      </div>
-
-      <RouterView />
+    <header class="lg:flex lg:items-center lg:pr-[var(--section-gap)/2] max-h-screen">
+      <nav
+        class="w-full text-xs text-center mt-8 lg:text-left lg:-ml-4 lg:text-base lg:py-4 lg:mt-4"
+      >
+        <!-- <RouterLink
+          to="/"
+          class="inline-block px-4 lg:border-l first:border-0 border-l border-[var(--color-border)] hover:bg-transparent"
+          >Home</RouterLink
+        >
+        <RouterLink
+          to="/about"
+          class="inline-block px-4 lg:border-l first:border-0 border-l border-[var(--color-border)] hover:bg-transparent"
+          >About</RouterLink -->
+        >
+      </nav>
     </header>
+    <RouterView />
   </main>
 </template>
 
 <style scoped>
-header {
+/* header {
   line-height: 1.5;
   max-height: 100vh;
 }
@@ -77,5 +83,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>
