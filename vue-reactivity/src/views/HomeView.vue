@@ -13,6 +13,7 @@
       </div>
       <div class="w-[20%] mx-auto">
         <h1 class="text-center text-white text-5xl">Cart</h1>
+        <h2 class="text-center text-white text-3xl">Total</h2>
         <div class="container2 my-8 flex flex-col items-center justify-start bg-slate-500">
           <RemoveCart v-for="spike in cart" :key="spike.name" :spike="spike" />
         </div>

@@ -28,6 +28,9 @@ function removeFromCart() {
     console.log('Removed from cart:', props.spike)
   }
 }
+/* function total() {
+  spike.price *
+} */
 </script>
 
 <style scoped></style>
